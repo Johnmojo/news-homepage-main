@@ -15,12 +15,19 @@
   --font-regular: 400;
   --font-bold: 700;
   --font-extra-bold: 800;
+
+  /* Size */
+  --size-button: 0.8rem;
+  --size-p: 1rem;
+  --size-h1: 2.5rem;
+  --size-h2: 2.25rem;
+  --size-h3: 1.1rem;
 }
 
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter-VariableFont_slnt,wght.ttf") format("TrueType")
     tech("variations");
-  font-weight: 400 700 800;
+  font-weight: 400 500 700 800;
   font-style: normal;
 }

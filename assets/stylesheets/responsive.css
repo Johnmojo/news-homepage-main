@@ -1,17 +1,27 @@
 @import "./styles.css";
 
-/* Phone - 375px and below */
-@media only screen and (max-width: 375px) {
-  /* Show mobile menu */
-  .header__nav--mobile {
+/* Phone - 768px and below */
+@media only screen and (max-width: 768px) {
+  .header__nav--desktop {
     display: none;
+  }
+  .header__logo {
+    width: 15%;
+  }
+  .header__button {
+    display: block;
   }
 }
 
 /* Desktop - 1440px and above */
 @media only screen and (min-width: 1440px) {
-  /* Hide mobile menu */
-  .header__nav--mobile {
+  .header__nav--desktop {
+    display: block;
+  }
+  .header__logo {
+    width: 4%;
+  }
+  .header__button {
     display: none;
   }
 }
