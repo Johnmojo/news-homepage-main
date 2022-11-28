@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Johnmojo/news-homepage-main)
-- Live Site URL: [Add live site URL here](https://johnmojo.github.io/news-homepage-main)
+- Solution URL: [https://github.com/Johnmojo/news-homepage-main](https://github.com/Johnmojo/news-homepage-main)
+- Live Site URL: [https://johnmojo.github.io/news-homepage-main](https://johnmojo.github.io/news-homepage-main)
 
 ## My process
 
