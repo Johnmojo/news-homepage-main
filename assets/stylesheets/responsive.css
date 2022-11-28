@@ -15,6 +15,18 @@
 
 /* Desktop - 1440px and above */
 @media only screen and (min-width: 1440px) {
+  .header {
+    max-width: 1440px;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .container {
+    max-width: 1440px;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
   .header__nav--desktop {
     display: block;
   }
@@ -23,5 +35,41 @@
   }
   .header__button {
     display: none;
+  }
+  .headline {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .latest {
+    margin-top: 0;
+  }
+  .hero__content {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    align-items: center;
+  }
+  .hero__content__title {
+    font-size: var(--size-h1-desktop);
+    line-height: 4rem;
+    width: 40%;
+    margin: 0;
+  }
+  .hero__content__description {
+    width: 40%;
+    margin: 0;
+  }
+  .news {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .news__article {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
